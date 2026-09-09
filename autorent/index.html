@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Mobil Terpercaya</title>
+    <!-- Menggunakan Tailwind CSS untuk styling yang responsif dan cepat -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-blue-600">AutoRent</span>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Beranda</a>
+                    <a href="#armada" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Armada Kami</a>
+                    <a href="#layanan" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Layanan</a>
+                    <a href="#kontak" class="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition">Hubungi Kami</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-20 pb-16 md:pt-32 md:pb-24 bg-blue-50 text-center px-4">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+                Sewa Mobil Mudah & Cepat di Bandar Lampung
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8">
+                Tersedia berbagai pilihan mobil terawat untuk kebutuhan harian, mingguan, hingga bulanan. Lepas kunci atau dengan supir profesional.
+            </p>
+            <a href="#armada" class="inline-block bg-blue-600 text-white text-lg font-semibold px-8 py-3 rounded-full hover:bg-blue-700 transition shadow-lg">
+                Lihat Mobil Tersedia
+            </a>
+        </div>
+    </header>
+
+    <!-- Armada / Daftar Mobil Section -->
+    <section id="armada" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">Armada Pilihan Kami</h2>
+            <p class="text-gray-600 mt-4">Kondisi prima, bersih, dan siap menemani perjalanan Anda.</p>
+        </div>
+
+        <!-- Grid Responsif: 1 kolom di mobile, 3 kolom di desktop -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card Mobil 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 bg-gray-200 flex items-center justify-center">
+                    <span class="text-gray-500">[Foto Avanza]</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900">Toyota Avanza</h3>
+                    <p class="text-gray-500 text-sm mt-1">MPV • 7 Penumpang • Manual/Matic</p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="text-2xl font-bold text-blue-600">Rp 300rb<span class="text-sm text-gray-500 font-normal">/hari</span></span>
+                        <button class="bg-green-500 text-white px-4 py-2 rounded-md font-medium hover:bg-green-600 transition">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Mobil 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 bg-gray-200 flex items-center justify-center">
+                    <span class="text-gray-500">[Foto Innova Reborn]</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900">Toyota Innova Reborn</h3>
+                    <p class="text-gray-500 text-sm mt-1">MPV • 7 Penumpang • Matic</p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="text-2xl font-bold text-blue-600">Rp 550rb<span class="text-sm text-gray-500 font-normal">/hari</span></span>
+                        <button class="bg-green-500 text-white px-4 py-2 rounded-md font-medium hover:bg-green-600 transition">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Mobil 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 bg-gray-200 flex items-center justify-center">
+                    <span class="text-gray-500">[Foto Honda Brio]</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900">Honda Brio</h3>
+                    <p class="text-gray-500 text-sm mt-1">City Car • 5 Penumpang • Matic</p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="text-2xl font-bold text-blue-600">Rp 250rb<span class="text-sm text-gray-500 font-normal">/hari</span></span>
+                        <button class="bg-green-500 text-white px-4 py-2 rounded-md font-medium hover:bg-green-600 transition">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h4 class="text-2xl font-bold mb-4">AutoRent</h4>
+                <p class="text-gray-400">Solusi transportasi terbaik dan terpercaya untuk segala kebutuhan Anda.</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold mb-4">Kontak</h4>
+                <p class="text-gray-400">WhatsApp: +62 812-XXXX-XXXX</p>
+                <p class="text-gray-400">Email: info@autorent.com</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold mb-4">Alamat</h4>
+                <p class="text-gray-400">Jl. Contoh Alamat No. 123<br>Bandar Lampung, Indonesia</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+            &copy; 2026 AutoRent. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
